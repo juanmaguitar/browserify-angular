@@ -1,0 +1,17 @@
+# Browserify + Angular + Watch + ES2015
+
+This repo contains a demo project that shows how to use ES2015 & CommonJS modules in an angular app and how to create a final `bundle.js` that can be used directly in the browser
+
+This project also offers an ESLint configuration to encourage the use of some good practices in ES2015 & JS
+
+## Installation
+
+```
+npm install
+```
+
+## Watch (ES2015 & CommonJS) .js files and generate `bundle` 
+
+```
+npm run build:es2015:watch
+```
