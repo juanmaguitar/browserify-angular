@@ -4,6 +4,8 @@ This repo contains a demo project that shows how to use ES2015 & CommonJS module
 
 This project also offers an ESLint configuration to encourage the use of some good practices in ES2015 & JS
 
+Note: It also shows the use of `controllerAs` syntax and (_non-angular-code_) classes as handlers of the controllers
+
 ## Installation
 
 ```
