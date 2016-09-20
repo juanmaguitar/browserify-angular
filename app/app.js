@@ -1,6 +1,8 @@
 var angular = require("angular");
 var angularRoute = require("angular-route");
 
+require('./styles.scss');
+
 var controllersModule = require("./controllers");
 
 angular.module("myApp",[ angularRoute, controllersModule ])

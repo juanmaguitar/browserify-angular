@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify app.js > bundle.js",
-    "build:watch": "watchify app/app.js -d -o bundle.js -v",
-    "build:es2015:watch" : "watchify app/app.js -t babelify -o bundle.js -v"
+    "build": "browserify app.js > public/bundle.js",
+    "build:watch": "watchify app/app.js -d -o public/bundle.js -v",
+    "build:es2015:watch": "watchify app/app.js -t babelify -t scssify -o public/bundle.js -v"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +18,13 @@
   },
   "devDependencies": {
     "babelify": "^7.3.0",
+    "browserify-css": "^0.9.2",
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.2.0",
     "eslint-plugin-react": "^6.2.0",
+    "scssify": "^2.1.0",
     "watchify": "^3.7.0"
   }
 }

@@ -3,7 +3,7 @@ var es = require('../../node_modules/moment/locale/es.js');
 
 class firstControllerHandler {
   constructor() {
-    this.result = 6+7;
+    this.result = 6+22;
 		console.log ( `El evento ocurrió ${this.spentTime()}` )
   }
   spentTime() {
